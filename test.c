@@ -1,4 +1,3 @@
-#ifdef TEST
 #include <stdio.h>
 #include <stdlib.h>
 #include <dirent.h>
@@ -189,6 +188,7 @@ static int read_dir( char *folder )
         fprintf(stderr,"test: failed to open directory %s\n",folder);
     return n_files;
 }
+#ifdef TEST
 // arguments: folder of text files
 int main( int argc, char **argv )
 {

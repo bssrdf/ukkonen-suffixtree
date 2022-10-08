@@ -335,7 +335,7 @@ node *build_tree( char *txt )
     }
     return root;
 }
-#ifdef MAIN
+//#ifdef MAIN
 /**
  * Test program for implementing Ukkonen's suffix tree algorithm
  */
@@ -350,4 +350,4 @@ int main(int argc, char** argv)
         node_dispose( root );
     }
 }
-#endif
+//#endif
